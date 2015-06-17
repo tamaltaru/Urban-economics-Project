@@ -59,6 +59,8 @@ i5_price <- lm (sqftprice ~ i.5ExitDistance,
 i5_price
 summary(i5_price)
 
+# The adjusted r-square value in the following plot comes from the summary
+
 dist_sqftprice <- qplot( i.5ExitDistance,sqftprice, data=craig, col= "yellow" ,xlim=c(0,7))+
   geom_smooth(method='lm', lwd=1, col= "darkorange")+
   annotate("text", label = "R-squared: 0.086", x = 3.5, y = 5, size = 6, colour = "lightblue3")+
