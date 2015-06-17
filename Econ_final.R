@@ -3,8 +3,10 @@
 ##                  NAME- DEBMALYA SINHA UW STUDENT NO- 1325990                 ####
 ####################################################################################
 
-#This data was taken from Mr. jay feng's Github repository by his permission
-#The distances ffrom I5 was exracted from Google Distance matrix by the help of Mr.Debosmit Ray
+#This data was taken from Mr. Jay Feng's Github repository by his permission
+#The distances from I5 was exracted from Google Distance matrix 
+#by the help of Mr.Debosmit Ray, dray92@uw.edu
+
 # CALLING PACKAGES( tHIS IS MY DEFAULT CALL, SOMETIMES THEY ALL ARE NOT REQUIRED)
 
 library(ggplot2)
